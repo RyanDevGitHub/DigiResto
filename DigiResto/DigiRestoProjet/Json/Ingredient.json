@@ -1,0 +1,209 @@
+[
+  {
+    "_name": "Muffins",
+    "_date_of_peremption": "2023-01-28T10:26:07",
+    "Name": "Muffins",
+    "Date_of_peremption": "2023-01-28T10:26:07",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Salade Césare",
+    "_date_of_peremption": "2023-01-28T10:26:07",
+    "Name": "Salade Césare",
+    "Date_of_peremption": "2023-01-28T10:26:07",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "pate",
+    "_date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Name": "pate",
+    "Date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Viande Haché",
+    "_date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Name": "Viande Haché",
+    "Date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Sauce Tomate",
+    "_date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Name": "Sauce Tomate",
+    "Date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Pain Burger",
+    "_date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Name": "Pain Burger",
+    "Date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Ketchup",
+    "_date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Name": "Ketchup",
+    "Date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Quantity": 0,
+    "Unity": 2,
+    "Id": 0
+  },
+  {
+    "_name": "Cheddar",
+    "_date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Name": "Cheddar",
+    "Date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "soupe potiron",
+    "_date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Name": "soupe potiron",
+    "Date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Quantity": 0,
+    "Unity": 2,
+    "Id": 0
+  },
+  {
+    "_name": "soupe vermiselle",
+    "_date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Name": "soupe vermiselle",
+    "Date_of_peremption": "2023-01-27T10:43:02.3225773+01:00",
+    "Quantity": 0,
+    "Unity": 2,
+    "Id": 0
+  },
+  {
+    "_name": "Donuts",
+    "_date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Name": "Donuts",
+    "Date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Cookie",
+    "_date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Name": "Cookie",
+    "Date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Salade de Fruit",
+    "_date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Name": "Salade de Fruit",
+    "Date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Glace au Chocolat",
+    "_date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Name": "Glace au Chocolat",
+    "Date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Salade Simple",
+    "_date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Name": "Salade Simple",
+    "Date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Soupe potirons",
+    "_date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Name": "Soupe potirons",
+    "Date_of_peremption": "2023-01-27T12:21:16.7531731+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Coca",
+    "_date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Name": "Coca",
+    "Date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Quantity": 0,
+    "Unity": 2,
+    "Id": 0
+  },
+  {
+    "_name": "Fanta",
+    "_date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Name": "Fanta",
+    "Date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Quantity": 0,
+    "Unity": 2,
+    "Id": 0
+  },
+  {
+    "_name": "Sprite",
+    "_date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Name": "Sprite",
+    "Date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Quantity": 0,
+    "Unity": 2,
+    "Id": 0
+  },
+  {
+    "_name": "Orangina",
+    "_date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Name": "Orangina",
+    "Date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Quantity": 0,
+    "Unity": 2,
+    "Id": 0
+  },
+  {
+    "_name": "Eau",
+    "_date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Name": "Eau",
+    "Date_of_peremption": "2023-01-27T12:32:36.6946455+01:00",
+    "Quantity": 0,
+    "Unity": 2,
+    "Id": 0
+  },
+  {
+    "_name": "Jambon",
+    "_date_of_peremption": "2023-01-27T12:36:33.7235142+01:00",
+    "Name": "Jambon",
+    "Date_of_peremption": "2023-01-27T12:36:33.7235142+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  },
+  {
+    "_name": "Creme fraiche",
+    "_date_of_peremption": "2023-01-27T12:36:33.7235142+01:00",
+    "Name": "Creme fraiche",
+    "Date_of_peremption": "2023-01-27T12:36:33.7235142+01:00",
+    "Quantity": 0,
+    "Unity": 0,
+    "Id": 0
+  }
+]

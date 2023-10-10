@@ -1,0 +1,1 @@
+{"Users":[{"Name":"AdminManager","Password":"ryan","IsAdmin":false,"IsManager":true,"ManageBy":null},{"Name":"Employer","Password":"aaa","IsAdmin":false,"IsManager":false,"ManageBy":null},{"Name":"manage update","Password":"aaa","IsAdmin":false,"IsManager":true,"ManageBy":null}]}

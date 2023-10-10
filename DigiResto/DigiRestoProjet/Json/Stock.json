@@ -1,0 +1,116 @@
+[
+  {
+    "Name": "Sauce Tomate",
+    "Quantity": 70,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
+  },
+  {
+    "Name": "Pain Burger",
+    "Quantity": -700,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
+  },
+  {
+    "Name": "Ketchup",
+    "Quantity": 20,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
+  },
+  {
+    "Name": "Cheddar",
+    "Quantity": -500,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
+  },
+  {
+    "Name": "soupe potiron",
+    "Quantity": -1400,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
+  },
+  {
+    "Name": "soupe vermiselle",
+    "Quantity": -900,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
+  },
+  {
+    "Name": "Donuts",
+    "Quantity": -400,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T12:21:16.7531731+01:00"
+  },
+  {
+    "Name": "Cookie",
+    "Quantity": 100,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T12:21:16.7531731+01:00"
+  },
+  {
+    "Name": "Salade de Fruit",
+    "Quantity": 100,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T12:21:16.7531731+01:00"
+  },
+  {
+    "Name": "Glace au Chocolat",
+    "Quantity": 100,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T12:21:16.7531731+01:00"
+  },
+  {
+    "Name": "Salade Simple",
+    "Quantity": 100,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T12:21:16.7531731+01:00"
+  },
+  {
+    "Name": "Soupe potirons",
+    "Quantity": 100,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T12:21:16.7531731+01:00"
+  },
+  {
+    "Name": "Coca",
+    "Quantity": 100,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T12:32:36.6946455+01:00"
+  },
+  {
+    "Name": "Fanta",
+    "Quantity": 100,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T12:32:36.6946455+01:00"
+  },
+  {
+    "Name": "Sprite",
+    "Quantity": 100,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T12:32:36.6946455+01:00"
+  },
+  {
+    "Name": "Orangina",
+    "Quantity": -560,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T12:32:36.6946455+01:00"
+  },
+  {
+    "Name": "Eau",
+    "Quantity": -1220,
+    "Unity": 2,
+    "DateOfPeremption": "2023-01-27T12:32:36.6946455+01:00"
+  },
+  {
+    "Name": "Jambon",
+    "Quantity": 25,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T12:36:33.7235142+01:00"
+  },
+  {
+    "Name": "Creme fraiche",
+    "Quantity": 70,
+    "Unity": 0,
+    "DateOfPeremption": "2023-01-27T12:36:33.7235142+01:00"
+  }
+]

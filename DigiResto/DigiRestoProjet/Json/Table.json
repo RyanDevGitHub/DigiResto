@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 3,
+    "_name": "Table n°3",
+    "_size": 4,
+    "Id": 3,
+    "Name": "Table n°3",
+    "Size": 4,
+    "IsAvailable": true
+  },
+  {
+    "_id": 10,
+    "_name": "Table n°10",
+    "_size": 4,
+    "Id": 10,
+    "Name": "Table n°10",
+    "Size": 4,
+    "IsAvailable": true
+  },
+  {
+    "_id": 15,
+    "_name": "Table n°15",
+    "_size": 2,
+    "Id": 15,
+    "Name": "Table n°15",
+    "Size": 2,
+    "IsAvailable": true
+  }
+]

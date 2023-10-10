@@ -1,0 +1,1076 @@
+[
+  {
+    "_name": "Boisson",
+    "_backgroundColor": "89, 255, 89",
+    "_articleList": [
+      {
+        "_id": 0,
+        "_name": "Eau 33 cl",
+        "_description": "Description of Article",
+        "_price": 1.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Eau",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Eau",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 330,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Eau 33 cl",
+        "Description": "Description of Article",
+        "Price": 1.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Orangina",
+        "_description": "Description of Article",
+        "_price": 1.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Orangina",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Orangina",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 330,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Orangina",
+        "Description": "Description of Article",
+        "Price": 1.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Sprite",
+        "_description": "Description of Article",
+        "_price": 1.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Sprite",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Sprite",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 330,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Sprite",
+        "Description": "Description of Article",
+        "Price": 1.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Fanta",
+        "_description": "Description of Article",
+        "_price": 1.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Fanta",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Fanta",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 330,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Fanta",
+        "Description": "Description of Article",
+        "Price": 1.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "Name": "Boisson",
+    "BackgroundColor": "89, 255, 89",
+    "ArticleList": [
+      {
+        "_id": 0,
+        "_name": "Eau 33 cl",
+        "_description": "Description of Article",
+        "_price": 1.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Eau",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Eau",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 330,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Eau 33 cl",
+        "Description": "Description of Article",
+        "Price": 1.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Orangina",
+        "_description": "Description of Article",
+        "_price": 1.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Orangina",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Orangina",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 330,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Orangina",
+        "Description": "Description of Article",
+        "Price": 1.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Sprite",
+        "_description": "Description of Article",
+        "_price": 1.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Sprite",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Sprite",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 330,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Sprite",
+        "Description": "Description of Article",
+        "Price": 1.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Fanta",
+        "_description": "Description of Article",
+        "_price": 1.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Fanta",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Fanta",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 330,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Fanta",
+        "Description": "Description of Article",
+        "Price": 1.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "MenuList": []
+  },
+  {
+    "_name": "Boisson Chaude",
+    "_backgroundColor": "128, 0, 255",
+    "_articleList": [
+      {
+        "_id": 0,
+        "_name": "Soupe Potiron",
+        "_description": "Description of Article",
+        "_price": 5.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "soupe potiron",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "soupe potiron",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 500,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Soupe Potiron",
+        "Description": "Description of Article",
+        "Price": 5.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Soupe vermiselle",
+        "_description": "Description of Article",
+        "_price": 6.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "soupe vermiselle",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "soupe vermiselle",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 500,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Soupe vermiselle",
+        "Description": "Description of Article",
+        "Price": 6.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "Name": "Boisson Chaude",
+    "BackgroundColor": "128, 0, 255",
+    "ArticleList": [
+      {
+        "_id": 0,
+        "_name": "Soupe Potiron",
+        "_description": "Description of Article",
+        "_price": 5.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "soupe potiron",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "soupe potiron",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 500,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Soupe Potiron",
+        "Description": "Description of Article",
+        "Price": 5.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Soupe vermiselle",
+        "_description": "Description of Article",
+        "_price": 6.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "soupe vermiselle",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "soupe vermiselle",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 500,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Soupe vermiselle",
+        "Description": "Description of Article",
+        "Price": 6.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "MenuList": []
+  },
+  {
+    "_name": "Dessert",
+    "_backgroundColor": "255, 4, 4",
+    "_articleList": [
+      {
+        "_id": 0,
+        "_name": "Muffins",
+        "_description": "Description of Article",
+        "_price": 4.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Muffins",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Muffins",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Muffins",
+        "Description": "Description of Article",
+        "Price": 4.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Glace au Chocolat",
+        "_description": "Description of Article",
+        "_price": 3.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Glace au Chocolat",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Glace au Chocolat",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Glace au Chocolat",
+        "Description": "Description of Article",
+        "Price": 3.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Salade de Fruit",
+        "_description": "Description of Article",
+        "_price": 3.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Salade de Fruit",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Salade de Fruit",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Salade de Fruit",
+        "Description": "Description of Article",
+        "Price": 3.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Cookie",
+        "_description": "Description of Article",
+        "_price": 3.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Cookie",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Cookie",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Cookie",
+        "Description": "Description of Article",
+        "Price": 3.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Donuts",
+        "_description": "Description of Article",
+        "_price": 4.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Donuts",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Donuts",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 250,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Donuts",
+        "Description": "Description of Article",
+        "Price": 4.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "Name": "Dessert",
+    "BackgroundColor": "255, 4, 4",
+    "ArticleList": [
+      {
+        "_id": 0,
+        "_name": "Muffins",
+        "_description": "Description of Article",
+        "_price": 4.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Muffins",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Muffins",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Muffins",
+        "Description": "Description of Article",
+        "Price": 4.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Glace au Chocolat",
+        "_description": "Description of Article",
+        "_price": 3.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Glace au Chocolat",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Glace au Chocolat",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Glace au Chocolat",
+        "Description": "Description of Article",
+        "Price": 3.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Salade de Fruit",
+        "_description": "Description of Article",
+        "_price": 3.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Salade de Fruit",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Salade de Fruit",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Salade de Fruit",
+        "Description": "Description of Article",
+        "Price": 3.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Cookie",
+        "_description": "Description of Article",
+        "_price": 3.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Cookie",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Cookie",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Cookie",
+        "Description": "Description of Article",
+        "Price": 3.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Donuts",
+        "_description": "Description of Article",
+        "_price": 4.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Donuts",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Donuts",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 250,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Donuts",
+        "Description": "Description of Article",
+        "Price": 4.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "MenuList": []
+  },
+  {
+    "_name": "Entrée",
+    "_backgroundColor": "",
+    "_articleList": [
+      {
+        "_id": 0,
+        "_name": "Salade Césare",
+        "_description": "Bonne Salade avec poulet",
+        "_price": 7.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Salade Césare",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Salade Césare",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 1,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Salade Césare",
+        "Description": "Bonne Salade avec poulet",
+        "Price": 7.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Soupe Potiron",
+        "_description": "Description of Article",
+        "_price": 5.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "soupe potiron",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "soupe potiron",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 500,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Soupe Potiron",
+        "Description": "Description of Article",
+        "Price": 5.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Soupe vermiselle",
+        "_description": "Description of Article",
+        "_price": 6.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "soupe vermiselle",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "soupe vermiselle",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 500,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Soupe vermiselle",
+        "Description": "Description of Article",
+        "Price": 6.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "Name": "Entrée",
+    "BackgroundColor": "",
+    "ArticleList": [
+      {
+        "_id": 0,
+        "_name": "Salade Césare",
+        "_description": "Bonne Salade avec poulet",
+        "_price": 7.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Salade Césare",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Salade Césare",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 1,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Salade Césare",
+        "Description": "Bonne Salade avec poulet",
+        "Price": 7.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Soupe Potiron",
+        "_description": "Description of Article",
+        "_price": 5.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "soupe potiron",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "soupe potiron",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 500,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Soupe Potiron",
+        "Description": "Description of Article",
+        "Price": 5.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Soupe vermiselle",
+        "_description": "Description of Article",
+        "_price": 6.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "soupe vermiselle",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "soupe vermiselle",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 500,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Soupe vermiselle",
+        "Description": "Description of Article",
+        "Price": 6.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "MenuList": []
+  },
+  {
+    "_name": "Plat",
+    "_backgroundColor": "255, 128, 255",
+    "_articleList": [
+      {
+        "_id": 0,
+        "_name": "Pate a la bolognaise",
+        "_description": "Description of Article",
+        "_price": 9.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "pate",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "pate",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 100,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Viande Haché",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Viande Haché",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 75,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Sauce Tomate",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Sauce Tomate",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 30,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Pate a la bolognaise",
+        "Description": "Description of Article",
+        "Price": 9.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Hamburger",
+        "_description": "Description of Article",
+        "_price": 6.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Viande Haché",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Viande Haché",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Pain Burger",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Pain Burger",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Ketchup",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Ketchup",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 20,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Cheddar",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Cheddar",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 150,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Hamburger",
+        "Description": "Description of Article",
+        "Price": 6.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Pate a la Carbonara",
+        "_description": "Description of Article",
+        "_price": 7.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "pate",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "pate",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 100,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Jambon",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Jambon",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 75,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Creme fraiche",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Creme fraiche",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 30,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Pate a la Carbonara",
+        "Description": "Description of Article",
+        "Price": 7.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "Name": "Plat",
+    "BackgroundColor": "255, 128, 255",
+    "ArticleList": [
+      {
+        "_id": 0,
+        "_name": "Pate a la bolognaise",
+        "_description": "Description of Article",
+        "_price": 9.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "pate",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "pate",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 100,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Viande Haché",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Viande Haché",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 75,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Sauce Tomate",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Sauce Tomate",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 30,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Pate a la bolognaise",
+        "Description": "Description of Article",
+        "Price": 9.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Hamburger",
+        "_description": "Description of Article",
+        "_price": 6.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Viande Haché",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Viande Haché",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Pain Burger",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Pain Burger",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Ketchup",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Ketchup",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 20,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Cheddar",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Cheddar",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 150,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Hamburger",
+        "Description": "Description of Article",
+        "Price": 6.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      },
+      {
+        "_id": 0,
+        "_name": "Pate a la Carbonara",
+        "_description": "Description of Article",
+        "_price": 7.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "pate",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "pate",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 100,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Jambon",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Jambon",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 75,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Creme fraiche",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Creme fraiche",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 30,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Pate a la Carbonara",
+        "Description": "Description of Article",
+        "Price": 7.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "MenuList": []
+  },
+  {
+    "_name": "Burger",
+    "_backgroundColor": "229, 118, 245",
+    "_articleList": [
+      {
+        "_id": 0,
+        "_name": "Hamburger",
+        "_description": "Description of Article",
+        "_price": 6.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Viande Haché",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Viande Haché",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Pain Burger",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Pain Burger",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Ketchup",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Ketchup",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 20,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Cheddar",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Cheddar",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 150,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Hamburger",
+        "Description": "Description of Article",
+        "Price": 6.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "Name": "Burger",
+    "BackgroundColor": "229, 118, 245",
+    "ArticleList": [
+      {
+        "_id": 0,
+        "_name": "Hamburger",
+        "_description": "Description of Article",
+        "_price": 6.0,
+        "_date_of_peremption": "0001-01-01T00:00:00",
+        "_ingredientList": [
+          {
+            "_name": "Viande Haché",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Viande Haché",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Pain Burger",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Pain Burger",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 200,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Ketchup",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Ketchup",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 20,
+            "Unity": 0,
+            "Id": 0
+          },
+          {
+            "_name": "Cheddar",
+            "_date_of_peremption": "0001-01-01T00:00:00",
+            "Name": "Cheddar",
+            "Date_of_peremption": "0001-01-01T00:00:00",
+            "Quantity": 150,
+            "Unity": 0,
+            "Id": 0
+          }
+        ],
+        "Id": 0,
+        "Name": "Hamburger",
+        "Description": "Description of Article",
+        "Price": 6.0,
+        "Date_of_peremption": "0001-01-01T00:00:00"
+      }
+    ],
+    "MenuList": []
+  }
+]

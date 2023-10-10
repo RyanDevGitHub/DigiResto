@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microcharts" Version="0.9.5.9" />
+    <PackageReference Include="Microcharts.Forms" Version="0.9.5.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="WinForms.DataVisualization" Version="1.7.0" />
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="View\AddPage\AddArticlePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\AddPage\AddTablePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\ManagePage\ManageTablePage .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\ManagePage\ManageUserPage.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="View\UpdatePage\UpdateTablePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\UpdatePage\UpdateCategoryPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\UserControl\UpdateCardUserControl1 .cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+	
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+	
+</Project>
