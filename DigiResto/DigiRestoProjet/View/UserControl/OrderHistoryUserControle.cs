@@ -25,7 +25,7 @@ namespace DigiRestoProjet.View
         public void LoadHistory()
         {
             List<Bill> ListBill = BillController.Instance.LoadCheckOutBill();
-            foreach(Bill bill in ListBill)
+            foreach (Bill bill in ListBill)
             {
                 ListViewItem item = new ListViewItem();
                 item.Text = bill.Id.ToString();
@@ -38,7 +38,7 @@ namespace DigiRestoProjet.View
         {
             List<Bill> ListBill = BillController.Instance.LoadCheckOutBillByDate(searchDate);
             lvHistory.Items.Clear();
-            foreach(Bill bill in ListBill)
+            foreach (Bill bill in ListBill)
             {
                 ListViewItem item = new ListViewItem();
                 item.Text = bill.Id.ToString();
@@ -68,8 +68,8 @@ namespace DigiRestoProjet.View
 
         private void lvHistory_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int OrderId; 
-            if(lvHistory.SelectedItems.Count > 0)
+            int OrderId;
+            if (lvHistory.SelectedItems.Count > 0)
             {
                 OrderId = Int32.Parse(lvHistory.SelectedItems[0].SubItems[0].Text.ToString());
                 BillCheckoutController.Instance.SetBill(OrderId, 0);
@@ -85,6 +85,11 @@ namespace DigiRestoProjet.View
             MainPage.mainPanel.Controls.Clear();
             MainPage.mainPanel.Controls.Add(CardUserControl1.Instance);
             CardUserControl1.Instance.Dock = System.Windows.Forms.DockStyle.Fill;
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

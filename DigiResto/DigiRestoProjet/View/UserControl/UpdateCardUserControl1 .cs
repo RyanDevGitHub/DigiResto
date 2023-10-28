@@ -29,10 +29,10 @@ namespace DigiRestoProjet.View
             var settingpage = new SettingsPage();
             settingpage.ShowDialog();
             settingpage.Close();
-            
+
         }
 
-       
+
         private void BtnOrderInProgress_Click_1(object sender, EventArgs e)
         {
             OrderInProgressUserControl1 orderinprogressControl = new OrderInProgressUserControl1();
@@ -60,8 +60,8 @@ namespace DigiRestoProjet.View
 
         private void BtnOrderMode_Click(object sender, EventArgs e)
         {
-           
-            CardUserControl1.Instance.Dock = DockStyle.Fill;    
+
+            CardUserControl1.Instance.Dock = DockStyle.Fill;
             MainPage.mainPanel.Controls.Clear();
             MainPage.mainPanel.Controls.Add(CardUserControl1.Instance);
 

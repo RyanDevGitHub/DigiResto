@@ -29,11 +29,11 @@ namespace DigiRestoProjet.View
             List<Bill> ListBill = BillController.Instance.LoadBill();
             List<BillInfo> ListBillInfo = BillInfoController.Instance.GetBillInfo();
 
-            foreach(Bill bill in ListBill)
+            foreach (Bill bill in ListBill)
             {
                 ListViewItem item1 = new ListViewItem();
                 item1.Text = bill.Id.ToString();
-                if(!bill.IsCheckOut)
+                if (!bill.IsCheckOut)
                 {
                     item1.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = " X " });
                     item1.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = bill.TableId.ToString() });
@@ -42,7 +42,7 @@ namespace DigiRestoProjet.View
 
                     lvHistorisOrder.Items.Add(item1);
                 }
-                
+
             }
         }
         #endregion
@@ -67,9 +67,9 @@ namespace DigiRestoProjet.View
         private void BtnOrder_Click(object sender, EventArgs e)
         {
             this.Hide();
-           
+
             MainPage.mainPanel.Controls.Clear();
-            MainPage.mainPanel.Controls.Add(CardUserControl1.Instance) ;
+            MainPage.mainPanel.Controls.Add(CardUserControl1.Instance);
             CardUserControl1.Instance.Dock = System.Windows.Forms.DockStyle.Fill;
 
 
@@ -93,7 +93,7 @@ namespace DigiRestoProjet.View
         //        int billId = Int32.Parse(listViewItem.SubItems[0].Text.ToString());
         //        string isCheckOut = listViewItem.SubItems[1].Text.ToString();
         //        int tableId = Int32.Parse(listViewItem.SubItems[2].Text.ToString());
-                
+
         //        //ManageOrderInProgress p = new ManageOrderInProgress();
         //        //p.ShowDialog();
 
@@ -125,7 +125,7 @@ namespace DigiRestoProjet.View
             {
                 string orderId = null;
                 if (lvHistorisOrder.SelectedItems.Count > 0)
-                {                   
+                {
                     orderId = lvHistorisOrder.SelectedItems[0].SubItems[0].Text.ToString();
 
                     BillCheckoutController.Instance.SetBill(Int32.Parse(lvHistorisOrder.SelectedItems[0].SubItems[0].Text), Int32.Parse(lvHistorisOrder.SelectedItems[0].SubItems[2].Text));

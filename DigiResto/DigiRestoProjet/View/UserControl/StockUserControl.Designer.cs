@@ -30,260 +30,269 @@ namespace DigiRestoProjet
         /// </summary>
         public void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.StockdataGridView = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.BtnAddStock = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.BtnSetting = new System.Windows.Forms.Button();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.StockdataGridView)).BeginInit();
-            this.panel3.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StockUserControl));
+            panel1 = new Panel();
+            panel2 = new Panel();
+            StockdataGridView = new DataGridView();
+            comboBox1 = new ComboBox();
+            panel3 = new Panel();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            panel5 = new Panel();
+            BtnAddStock = new Button();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            panel4 = new Panel();
+            label1 = new Label();
+            panel6 = new Panel();
+            btnExit = new Button();
+            BtnSetting = new Button();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewButtonColumn();
+            Column4 = new DataGridViewButtonColumn();
+            imageList1 = new ImageList(components);
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)StockdataGridView).BeginInit();
+            panel3.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            panel5.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
+            panel4.SuspendLayout();
+            panel6.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(-5, 55);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1236, 3);
-            this.panel1.TabIndex = 1;
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = Color.Black;
+            panel1.Location = new Point(-5, 55);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1236, 3);
+            panel1.TabIndex = 1;
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.StockdataGridView);
-            this.panel2.Location = new System.Drawing.Point(19, 93);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1190, 519);
-            this.panel2.TabIndex = 2;
+            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(StockdataGridView);
+            panel2.Location = new Point(19, 93);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1190, 519);
+            panel2.TabIndex = 2;
             // 
             // StockdataGridView
             // 
-            this.StockdataGridView.AllowUserToAddRows = false;
-            this.StockdataGridView.AllowUserToDeleteRows = false;
-            this.StockdataGridView.AllowUserToResizeColumns = false;
-            this.StockdataGridView.AllowUserToResizeRows = false;
-            this.StockdataGridView.BackgroundColor = System.Drawing.Color.White;
-            this.StockdataGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.StockdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.StockdataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StockdataGridView.Location = new System.Drawing.Point(0, 0);
-            this.StockdataGridView.MultiSelect = false;
-            this.StockdataGridView.Name = "StockdataGridView";
-            this.StockdataGridView.RowHeadersWidth = 62;
-            this.StockdataGridView.RowTemplate.Height = 25;
-            this.StockdataGridView.Size = new System.Drawing.Size(1190, 519);
-            this.StockdataGridView.TabIndex = 0;
-            this.StockdataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StockdataGridView_CellContentClick_1);
-            this.StockdataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.StockdataGridView_DataError);
+            StockdataGridView.AllowUserToAddRows = false;
+            StockdataGridView.AllowUserToDeleteRows = false;
+            StockdataGridView.AllowUserToResizeColumns = false;
+            StockdataGridView.AllowUserToResizeRows = false;
+            StockdataGridView.BackgroundColor = Color.White;
+            StockdataGridView.BorderStyle = BorderStyle.Fixed3D;
+            StockdataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            StockdataGridView.Dock = DockStyle.Fill;
+            StockdataGridView.Location = new Point(0, 0);
+            StockdataGridView.MultiSelect = false;
+            StockdataGridView.Name = "StockdataGridView";
+            StockdataGridView.RowHeadersWidth = 62;
+            StockdataGridView.RowTemplate.Height = 25;
+            StockdataGridView.Size = new Size(1190, 519);
+            StockdataGridView.TabIndex = 0;
+            StockdataGridView.CellContentClick += StockdataGridView_CellContentClick_1;
+            StockdataGridView.DataError += StockdataGridView_DataError;
             // 
             // comboBox1
             // 
-            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(823, 41);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(407, 23);
-            this.comboBox1.TabIndex = 4;
+            comboBox1.Dock = DockStyle.Bottom;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(823, 41);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(407, 23);
+            comboBox1.TabIndex = 4;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.tableLayoutPanel2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 592);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1233, 82);
-            this.panel3.TabIndex = 5;
+            panel3.Controls.Add(tableLayoutPanel2);
+            panel3.Dock = DockStyle.Bottom;
+            panel3.Location = new Point(0, 592);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1233, 82);
+            panel3.TabIndex = 5;
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Controls.Add(this.panel5, 1, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 15);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1233, 67);
-            this.tableLayoutPanel2.TabIndex = 1;
+            tableLayoutPanel2.ColumnCount = 3;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel2.Controls.Add(panel5, 1, 0);
+            tableLayoutPanel2.Dock = DockStyle.Bottom;
+            tableLayoutPanel2.Location = new Point(0, 15);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 1;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.Size = new Size(1233, 67);
+            tableLayoutPanel2.TabIndex = 1;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.BtnAddStock);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(413, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(404, 61);
-            this.panel5.TabIndex = 0;
+            panel5.Controls.Add(BtnAddStock);
+            panel5.Dock = DockStyle.Fill;
+            panel5.Location = new Point(413, 3);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(404, 61);
+            panel5.TabIndex = 0;
             // 
             // BtnAddStock
             // 
-            this.BtnAddStock.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BtnAddStock.Location = new System.Drawing.Point(132, 8);
-            this.BtnAddStock.Name = "BtnAddStock";
-            this.BtnAddStock.Size = new System.Drawing.Size(143, 45);
-            this.BtnAddStock.TabIndex = 0;
-            this.BtnAddStock.Text = "Add Stock";
-            this.BtnAddStock.UseVisualStyleBackColor = true;
-            this.BtnAddStock.Click += new System.EventHandler(this.BtnAddStock_Click);
+            BtnAddStock.Anchor = AnchorStyles.None;
+            BtnAddStock.Location = new Point(132, 8);
+            BtnAddStock.Name = "BtnAddStock";
+            BtnAddStock.Size = new Size(143, 45);
+            BtnAddStock.TabIndex = 0;
+            BtnAddStock.Text = "Add Stock";
+            BtnAddStock.UseVisualStyleBackColor = true;
+            BtnAddStock.Click += BtnAddStock_Click;
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Controls.Add(this.panel4, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox1, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel6, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1233, 67);
-            this.tableLayoutPanel1.TabIndex = 6;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            tableLayoutPanel1.BackColor = Color.FromArgb(34, 87, 122);
+            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel1.Controls.Add(panel4, 1, 0);
+            tableLayoutPanel1.Controls.Add(comboBox1, 2, 0);
+            tableLayoutPanel1.Controls.Add(panel6, 0, 0);
+            tableLayoutPanel1.Dock = DockStyle.Top;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 1;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Size = new Size(1233, 67);
+            tableLayoutPanel1.TabIndex = 6;
+            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(413, 3);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(404, 61);
-            this.panel4.TabIndex = 0;
+            panel4.BackColor = Color.FromArgb(34, 87, 122);
+            panel4.Controls.Add(label1);
+            panel4.Dock = DockStyle.Fill;
+            panel4.Location = new Point(413, 3);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(404, 61);
+            panel4.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(193, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 38);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Stock";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            label1.Anchor = AnchorStyles.None;
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(193, 9);
+            label1.Margin = new Padding(12);
+            label1.Name = "label1";
+            label1.Size = new Size(117, 38);
+            label1.TabIndex = 0;
+            label1.Text = "Stock";
+            label1.Click += label1_Click_1;
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.btnExit);
-            this.panel6.Controls.Add(this.BtnSetting);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(3, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(404, 61);
-            this.panel6.TabIndex = 5;
+            panel6.Controls.Add(btnExit);
+            panel6.Controls.Add(BtnSetting);
+            panel6.Dock = DockStyle.Fill;
+            panel6.Location = new Point(3, 3);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(404, 61);
+            panel6.TabIndex = 5;
             // 
             // btnExit
             // 
-            this.btnExit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnExit.Location = new System.Drawing.Point(163, 4);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(112, 54);
-            this.btnExit.TabIndex = 2;
-            this.btnExit.Text = "Home";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            btnExit.Anchor = AnchorStyles.None;
+            btnExit.ImageKey = "icons8-accueil-100.png";
+            btnExit.ImageList = imageList1;
+            btnExit.Location = new Point(163, 4);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(112, 54);
+            btnExit.TabIndex = 2;
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // BtnSetting
             // 
-            this.BtnSetting.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BtnSetting.Location = new System.Drawing.Point(281, 4);
-            this.BtnSetting.Name = "BtnSetting";
-            this.BtnSetting.Size = new System.Drawing.Size(112, 54);
-            this.BtnSetting.TabIndex = 0;
-            this.BtnSetting.Text = "Setting";
-            this.BtnSetting.UseVisualStyleBackColor = true;
-            this.BtnSetting.Click += new System.EventHandler(this.BtnSetting_Click);
+            BtnSetting.Anchor = AnchorStyles.None;
+            BtnSetting.ImageKey = "icons8-paramètres-240.png";
+            BtnSetting.ImageList = imageList1;
+            BtnSetting.Location = new Point(281, 4);
+            BtnSetting.Name = "BtnSetting";
+            BtnSetting.Size = new Size(112, 54);
+            BtnSetting.TabIndex = 0;
+            BtnSetting.UseVisualStyleBackColor = true;
+            BtnSetting.Click += BtnSetting_Click;
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.MinimumWidth = 8;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 150;
+            Column1.HeaderText = "Column1";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            Column1.Width = 150;
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.MinimumWidth = 8;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 150;
+            Column2.HeaderText = "Column2";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            Column2.Width = 150;
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "Column3";
-            this.Column3.MinimumWidth = 8;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 150;
+            Column3.HeaderText = "Column3";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            Column3.Width = 150;
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "Column4";
-            this.Column4.MinimumWidth = 8;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 150;
+            Column4.HeaderText = "Column4";
+            Column4.MinimumWidth = 8;
+            Column4.Name = "Column4";
+            Column4.Width = 150;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth8Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "icons8-paramètres-240.png");
+            imageList1.Images.SetKeyName(1, "icons8-accueil-100.png");
             // 
             // StockUserControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel3);
-            this.Name = "StockUserControl";
-            this.Size = new System.Drawing.Size(1233, 674);
-            this.Load += new System.EventHandler(this.StockUserControl_Load);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.StockdataGridView)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(34, 87, 122);
+            Controls.Add(tableLayoutPanel1);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Controls.Add(panel3);
+            Name = "StockUserControl";
+            Size = new Size(1233, 674);
+            Load += StockUserControl_Load;
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)StockdataGridView).EndInit();
+            panel3.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            tableLayoutPanel1.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel6.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
         private Panel panel1;
         private Panel panel2;
-        public  DataGridView StockdataGridView;
+        public DataGridView StockdataGridView;
         private ComboBox comboBox1;
         private Panel panel3;
         private TableLayoutPanel tableLayoutPanel1;
@@ -300,5 +309,6 @@ namespace DigiRestoProjet
         private Panel panel6;
         private Button BtnSetting;
         private Button btnExit;
+        private ImageList imageList1;
     }
 }

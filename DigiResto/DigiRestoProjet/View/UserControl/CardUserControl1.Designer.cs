@@ -23,7 +23,7 @@ namespace DigiRestoProjet.View
         /// Variable nécessaire au concepteur.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        
+
 
         /// <summary> 
         /// Nettoyage des ressources utilisées.
@@ -46,507 +46,527 @@ namespace DigiRestoProjet.View
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.BtnSettings = new System.Windows.Forms.Button();
-            this.BtnOrderInProgress = new System.Windows.Forms.Button();
-            this.btnResetCommand = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.lvBill = new System.Windows.Forms.ListView();
-            this.ArticleId = new System.Windows.Forms.ColumnHeader();
-            this.ItemName = new System.Windows.Forms.ColumnHeader();
-            this.Quantity = new System.Windows.Forms.ColumnHeader();
-            this.Total = new System.Windows.Forms.ColumnHeader();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.TblDisplayArticle = new System.Windows.Forms.TableLayoutPanel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.BtnNum0 = new System.Windows.Forms.Button();
-            this.BtnNum1 = new System.Windows.Forms.Button();
-            this.BtnNum2 = new System.Windows.Forms.Button();
-            this.BtnNum3 = new System.Windows.Forms.Button();
-            this.BtnNum4 = new System.Windows.Forms.Button();
-            this.BtnNum5 = new System.Windows.Forms.Button();
-            this.BtnNum6 = new System.Windows.Forms.Button();
-            this.BtnNum7 = new System.Windows.Forms.Button();
-            this.BtnNum8 = new System.Windows.Forms.Button();
-            this.BtnNum9 = new System.Windows.Forms.Button();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.BtnSaveOrder = new System.Windows.Forms.Button();
-            this.BtnTakeAway = new System.Windows.Forms.Button();
-            this.BtnOnSite = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.SuspendLayout();
+            components = new Container();
+            ComponentResourceManager resources = new ComponentResourceManager(typeof(CardUserControl1));
+            tableLayoutPanel1 = new TableLayoutPanel();
+            panel1 = new Panel();
+            tableLayoutPanel5 = new TableLayoutPanel();
+            BtnSettings = new Button();
+            imageList1 = new ImageList(components);
+            btnResetCommand = new Button();
+            BtnOrderInProgress = new Button();
+            panel2 = new Panel();
+            panel3 = new Panel();
+            lvBill = new ListView();
+            ArticleId = new ColumnHeader();
+            ItemName = new ColumnHeader();
+            Quantity = new ColumnHeader();
+            Total = new ColumnHeader();
+            panel4 = new Panel();
+            TblDisplayArticle = new TableLayoutPanel();
+            panel12 = new Panel();
+            panel11 = new Panel();
+            panel8 = new Panel();
+            panel7 = new Panel();
+            panel9 = new Panel();
+            tableLayoutPanel4 = new TableLayoutPanel();
+            BtnNum0 = new Button();
+            BtnNum1 = new Button();
+            BtnNum2 = new Button();
+            BtnNum3 = new Button();
+            BtnNum4 = new Button();
+            BtnNum5 = new Button();
+            BtnNum6 = new Button();
+            BtnNum7 = new Button();
+            BtnNum8 = new Button();
+            BtnNum9 = new Button();
+            panel10 = new Panel();
+            BtnSaveOrder = new Button();
+            BtnTakeAway = new Button();
+            BtnOnSite = new Button();
+            tableLayoutPanel1.SuspendLayout();
+            panel1.SuspendLayout();
+            tableLayoutPanel5.SuspendLayout();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
+            panel9.SuspendLayout();
+            tableLayoutPanel4.SuspendLayout();
+            panel10.SuspendLayout();
+            SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.760001F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 58.48F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.76F));
-            this.tableLayoutPanel1.Controls.Add(this.panel1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel3, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel4, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.panel9, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.panel10, 2, 3);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.631435F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 43.36856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1212, 627);
-            this.tableLayoutPanel1.TabIndex = 0;
+            tableLayoutPanel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            tableLayoutPanel1.BackColor = Color.White;
+            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 9.760001F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 58.48F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 31.76F));
+            tableLayoutPanel1.Controls.Add(panel1, 1, 0);
+            tableLayoutPanel1.Controls.Add(panel2, 0, 0);
+            tableLayoutPanel1.Controls.Add(panel3, 2, 0);
+            tableLayoutPanel1.Controls.Add(panel4, 1, 1);
+            tableLayoutPanel1.Controls.Add(panel9, 2, 2);
+            tableLayoutPanel1.Controls.Add(panel10, 2, 3);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 4;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 6.631435F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 43.36856F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.Size = new Size(1212, 627);
+            tableLayoutPanel1.TabIndex = 0;
+            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.tableLayoutPanel5);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(118, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(708, 41);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(tableLayoutPanel5);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(118, 0);
+            panel1.Margin = new Padding(0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(708, 41);
+            panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
             // 
             // tableLayoutPanel5
             // 
-            this.tableLayoutPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.tableLayoutPanel5.ColumnCount = 8;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.32806F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.09486F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.533597F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.050847F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.37288F));
-            this.tableLayoutPanel5.Controls.Add(this.BtnSettings, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.BtnOrderInProgress, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.btnResetCommand, 7, 0);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.43243F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(708, 41);
-            this.tableLayoutPanel5.TabIndex = 0;
-            this.tableLayoutPanel5.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel5_Paint);
+            tableLayoutPanel5.BackColor = Color.FromArgb(34, 87, 122);
+            tableLayoutPanel5.ColumnCount = 8;
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 14.32806F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 17.09486F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5.533597F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.050847F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 17.37288F));
+            tableLayoutPanel5.Controls.Add(BtnSettings, 0, 0);
+            tableLayoutPanel5.Controls.Add(btnResetCommand, 7, 0);
+            tableLayoutPanel5.Controls.Add(BtnOrderInProgress, 1, 0);
+            tableLayoutPanel5.Dock = DockStyle.Fill;
+            tableLayoutPanel5.Location = new Point(0, 0);
+            tableLayoutPanel5.Name = "tableLayoutPanel5";
+            tableLayoutPanel5.RowCount = 1;
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 32.43243F));
+            tableLayoutPanel5.Size = new Size(708, 41);
+            tableLayoutPanel5.TabIndex = 0;
+            tableLayoutPanel5.Paint += tableLayoutPanel5_Paint;
             // 
             // BtnSettings
             // 
-            this.BtnSettings.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnSettings.Location = new System.Drawing.Point(3, 3);
-            this.BtnSettings.Name = "BtnSettings";
-            this.BtnSettings.Size = new System.Drawing.Size(95, 35);
-            this.BtnSettings.TabIndex = 0;
-            this.BtnSettings.Text = "Settings";
-            this.BtnSettings.UseVisualStyleBackColor = true;
-            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
+            BtnSettings.Dock = DockStyle.Fill;
+            BtnSettings.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnSettings.ImageIndex = 4;
+            BtnSettings.ImageList = imageList1;
+            BtnSettings.Location = new Point(3, 3);
+            BtnSettings.Name = "BtnSettings";
+            BtnSettings.Size = new Size(95, 35);
+            BtnSettings.TabIndex = 0;
+            BtnSettings.UseVisualStyleBackColor = true;
+            BtnSettings.Click += BtnSettings_Click;
             // 
-            // BtnOrderInProgress
+            // imageList1
             // 
-            this.BtnOrderInProgress.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnOrderInProgress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnOrderInProgress.Location = new System.Drawing.Point(105, 5);
-            this.BtnOrderInProgress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnOrderInProgress.Name = "BtnOrderInProgress";
-            this.BtnOrderInProgress.Size = new System.Drawing.Size(113, 31);
-            this.BtnOrderInProgress.TabIndex = 1;
-            this.BtnOrderInProgress.Text = "OrderInProgress";
-            this.BtnOrderInProgress.UseVisualStyleBackColor = true;
-            this.BtnOrderInProgress.Click += new System.EventHandler(this.BtnOrderInProgress_Click);
+            imageList1.ColorDepth = ColorDepth.Depth8Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "icons8-boisson-100.png");
+            imageList1.Images.SetKeyName(1, "icons8-boisson-chaude-100.png");
+            imageList1.Images.SetKeyName(2, "icons8-burger-100.png");
+            imageList1.Images.SetKeyName(3, "icons8-dessert-100.png");
+            imageList1.Images.SetKeyName(4, "icons8-paramètres-240.png");
+            imageList1.Images.SetKeyName(5, "icons8-plat-100.png");
+            imageList1.Images.SetKeyName(6, "icons8-salade-100.png");
+            imageList1.Images.SetKeyName(7, "icons8-sauvegarder-100.png");
+            imageList1.Images.SetKeyName(8, "icons8-table-100.png");
+            imageList1.Images.SetKeyName(9, "icons8-nourriture-à-emporter-100.png");
             // 
             // btnResetCommand
             // 
-            this.btnResetCommand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnResetCommand.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnResetCommand.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnResetCommand.Location = new System.Drawing.Point(585, 3);
-            this.btnResetCommand.Name = "btnResetCommand";
-            this.btnResetCommand.Size = new System.Drawing.Size(120, 35);
-            this.btnResetCommand.TabIndex = 9;
-            this.btnResetCommand.Text = "New Order";
-            this.btnResetCommand.UseVisualStyleBackColor = false;
-            this.btnResetCommand.Click += new System.EventHandler(this.btnResetCommand_Click);
+            btnResetCommand.BackColor = Color.FromArgb(255, 128, 0);
+            btnResetCommand.Dock = DockStyle.Fill;
+            btnResetCommand.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            btnResetCommand.Location = new Point(585, 3);
+            btnResetCommand.Name = "btnResetCommand";
+            btnResetCommand.Size = new Size(120, 35);
+            btnResetCommand.TabIndex = 9;
+            btnResetCommand.Text = "New Order";
+            btnResetCommand.UseVisualStyleBackColor = false;
+            btnResetCommand.Click += btnResetCommand_Click;
+            // 
+            // BtnOrderInProgress
+            // 
+            BtnOrderInProgress.Dock = DockStyle.Fill;
+            BtnOrderInProgress.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnOrderInProgress.Location = new Point(105, 5);
+            BtnOrderInProgress.Margin = new Padding(4, 5, 4, 5);
+            BtnOrderInProgress.Name = "BtnOrderInProgress";
+            BtnOrderInProgress.Size = new Size(113, 31);
+            BtnOrderInProgress.TabIndex = 1;
+            BtnOrderInProgress.Text = "OrderInProgress";
+            BtnOrderInProgress.UseVisualStyleBackColor = true;
+            BtnOrderInProgress.Click += BtnOrderInProgress_Click;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(165)))), ((int)(((byte)(82)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.panel2.Name = "panel2";
-            this.tableLayoutPanel1.SetRowSpan(this.panel2, 4);
-            this.panel2.Size = new System.Drawing.Size(118, 627);
-            this.panel2.TabIndex = 1;
+            panel2.BackColor = Color.FromArgb(255, 165, 82);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(0);
+            panel2.Name = "panel2";
+            tableLayoutPanel1.SetRowSpan(panel2, 4);
+            panel2.Size = new Size(118, 627);
+            panel2.TabIndex = 1;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.lvBill);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(826, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0);
-            this.panel3.Name = "panel3";
-            this.tableLayoutPanel1.SetRowSpan(this.panel3, 2);
-            this.panel3.Size = new System.Drawing.Size(386, 312);
-            this.panel3.TabIndex = 2;
+            panel3.BackColor = Color.White;
+            panel3.Controls.Add(lvBill);
+            panel3.Dock = DockStyle.Fill;
+            panel3.Location = new Point(826, 0);
+            panel3.Margin = new Padding(0);
+            panel3.Name = "panel3";
+            tableLayoutPanel1.SetRowSpan(panel3, 2);
+            panel3.Size = new Size(386, 312);
+            panel3.TabIndex = 2;
             // 
             // lvBill
             // 
-            this.lvBill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.ArticleId,
-            this.ItemName,
-            this.Quantity,
-            this.Total});
-            this.lvBill.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lvBill.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lvBill.FullRowSelect = true;
-            this.lvBill.GridLines = true;
-            this.lvBill.Location = new System.Drawing.Point(0, 0);
-            this.lvBill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lvBill.Name = "lvBill";
-            this.lvBill.Size = new System.Drawing.Size(386, 312);
-            this.lvBill.TabIndex = 0;
-            this.lvBill.UseCompatibleStateImageBehavior = false;
-            this.lvBill.View = System.Windows.Forms.View.Details;
-            this.lvBill.SelectedIndexChanged += new System.EventHandler(this.lvBill_SelectedIndexChanged);
+            lvBill.Columns.AddRange(new ColumnHeader[] { ArticleId, ItemName, Quantity, Total });
+            lvBill.Dock = DockStyle.Fill;
+            lvBill.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            lvBill.FullRowSelect = true;
+            lvBill.GridLines = true;
+            lvBill.Location = new Point(0, 0);
+            lvBill.Margin = new Padding(2);
+            lvBill.Name = "lvBill";
+            lvBill.Size = new Size(386, 312);
+            lvBill.TabIndex = 0;
+            lvBill.UseCompatibleStateImageBehavior = false;
+            lvBill.View = System.Windows.Forms.View.Details;
+            lvBill.SelectedIndexChanged += lvBill_SelectedIndexChanged;
             // 
             // ArticleId
             // 
-            this.ArticleId.Text = "Article ID";
+            ArticleId.Text = "Article ID";
             // 
             // ItemName
             // 
-            this.ItemName.Text = "Item Name";
-            this.ItemName.Width = 200;
+            ItemName.Text = "Item Name";
+            ItemName.Width = 200;
             // 
             // Quantity
             // 
-            this.Quantity.Text = "Quantity";
-            this.Quantity.Width = 80;
+            Quantity.Text = "Quantity";
+            Quantity.Width = 80;
             // 
             // Total
             // 
-            this.Total.Text = "Total";
-            this.Total.Width = 150;
+            Total.Text = "Total";
+            Total.Width = 150;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.panel4.Controls.Add(this.TblDisplayArticle);
-            this.panel4.Controls.Add(this.panel12);
-            this.panel4.Controls.Add(this.panel11);
-            this.panel4.Controls.Add(this.panel8);
-            this.panel4.Controls.Add(this.panel7);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(118, 41);
-            this.panel4.Margin = new System.Windows.Forms.Padding(0);
-            this.panel4.Name = "panel4";
-            this.tableLayoutPanel1.SetRowSpan(this.panel4, 3);
-            this.panel4.Size = new System.Drawing.Size(708, 586);
-            this.panel4.TabIndex = 3;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            panel4.BackColor = Color.FromArgb(34, 87, 122);
+            panel4.Controls.Add(TblDisplayArticle);
+            panel4.Controls.Add(panel12);
+            panel4.Controls.Add(panel11);
+            panel4.Controls.Add(panel8);
+            panel4.Controls.Add(panel7);
+            panel4.Dock = DockStyle.Fill;
+            panel4.Location = new Point(118, 41);
+            panel4.Margin = new Padding(0);
+            panel4.Name = "panel4";
+            tableLayoutPanel1.SetRowSpan(panel4, 3);
+            panel4.Size = new Size(708, 586);
+            panel4.TabIndex = 3;
+            panel4.Paint += panel4_Paint;
             // 
             // TblDisplayArticle
             // 
-            this.TblDisplayArticle.ColumnCount = 5;
-            this.TblDisplayArticle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TblDisplayArticle.Location = new System.Drawing.Point(38, 29);
-            this.TblDisplayArticle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TblDisplayArticle.Name = "TblDisplayArticle";
-            this.TblDisplayArticle.RowCount = 5;
-            this.TblDisplayArticle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.TblDisplayArticle.Size = new System.Drawing.Size(634, 532);
-            this.TblDisplayArticle.TabIndex = 5;
+            TblDisplayArticle.ColumnCount = 5;
+            TblDisplayArticle.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.Dock = DockStyle.Fill;
+            TblDisplayArticle.Location = new Point(38, 29);
+            TblDisplayArticle.Margin = new Padding(2);
+            TblDisplayArticle.Name = "TblDisplayArticle";
+            TblDisplayArticle.RowCount = 5;
+            TblDisplayArticle.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            TblDisplayArticle.Size = new Size(634, 532);
+            TblDisplayArticle.TabIndex = 5;
             // 
             // panel12
             // 
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel12.Location = new System.Drawing.Point(38, 561);
-            this.panel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(634, 25);
-            this.panel12.TabIndex = 4;
+            panel12.Dock = DockStyle.Bottom;
+            panel12.Location = new Point(38, 561);
+            panel12.Margin = new Padding(2);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(634, 25);
+            panel12.TabIndex = 4;
             // 
             // panel11
             // 
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(38, 0);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(634, 29);
-            this.panel11.TabIndex = 3;
+            panel11.Dock = DockStyle.Top;
+            panel11.Location = new Point(38, 0);
+            panel11.Margin = new Padding(2);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(634, 29);
+            panel11.TabIndex = 3;
             // 
             // panel8
             // 
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel8.Location = new System.Drawing.Point(672, 0);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(36, 586);
-            this.panel8.TabIndex = 1;
+            panel8.Dock = DockStyle.Right;
+            panel8.Location = new Point(672, 0);
+            panel8.Margin = new Padding(2);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(36, 586);
+            panel8.TabIndex = 1;
             // 
             // panel7
             // 
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(38, 586);
-            this.panel7.TabIndex = 0;
+            panel7.Dock = DockStyle.Left;
+            panel7.Location = new Point(0, 0);
+            panel7.Margin = new Padding(2);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(38, 586);
+            panel7.TabIndex = 0;
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.panel9.Controls.Add(this.tableLayoutPanel4);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(826, 312);
-            this.panel9.Margin = new System.Windows.Forms.Padding(0);
-            this.panel9.Name = "panel9";
-            this.panel9.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.panel9.Size = new System.Drawing.Size(386, 156);
-            this.panel9.TabIndex = 4;
+            panel9.BackColor = Color.FromArgb(34, 87, 122);
+            panel9.Controls.Add(tableLayoutPanel4);
+            panel9.Dock = DockStyle.Fill;
+            panel9.Location = new Point(826, 312);
+            panel9.Margin = new Padding(0);
+            panel9.Name = "panel9";
+            panel9.Padding = new Padding(0, 0, 10, 0);
+            panel9.Size = new Size(386, 156);
+            panel9.TabIndex = 4;
             // 
             // tableLayoutPanel4
             // 
-            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel4.ColumnCount = 3;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33332F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum0, 1, 3);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum1, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum2, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum3, 2, 0);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum4, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum5, 1, 1);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum6, 2, 1);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum7, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum8, 1, 2);
-            this.tableLayoutPanel4.Controls.Add(this.BtnNum9, 2, 2);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(21, 8);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 4;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(375, 145);
-            this.tableLayoutPanel4.TabIndex = 0;
-            this.tableLayoutPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel4_Paint);
+            tableLayoutPanel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel4.ColumnCount = 3;
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33332F));
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33334F));
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33334F));
+            tableLayoutPanel4.Controls.Add(BtnNum0, 1, 3);
+            tableLayoutPanel4.Controls.Add(BtnNum1, 0, 0);
+            tableLayoutPanel4.Controls.Add(BtnNum2, 1, 0);
+            tableLayoutPanel4.Controls.Add(BtnNum3, 2, 0);
+            tableLayoutPanel4.Controls.Add(BtnNum4, 0, 1);
+            tableLayoutPanel4.Controls.Add(BtnNum5, 1, 1);
+            tableLayoutPanel4.Controls.Add(BtnNum6, 2, 1);
+            tableLayoutPanel4.Controls.Add(BtnNum7, 0, 2);
+            tableLayoutPanel4.Controls.Add(BtnNum8, 1, 2);
+            tableLayoutPanel4.Controls.Add(BtnNum9, 2, 2);
+            tableLayoutPanel4.Location = new Point(21, 8);
+            tableLayoutPanel4.Margin = new Padding(4, 5, 4, 5);
+            tableLayoutPanel4.Name = "tableLayoutPanel4";
+            tableLayoutPanel4.RowCount = 4;
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel4.Size = new Size(375, 145);
+            tableLayoutPanel4.TabIndex = 0;
+            tableLayoutPanel4.Paint += tableLayoutPanel4_Paint;
             // 
             // BtnNum0
             // 
-            this.BtnNum0.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum0.Location = new System.Drawing.Point(128, 113);
-            this.BtnNum0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum0.Name = "BtnNum0";
-            this.BtnNum0.Size = new System.Drawing.Size(117, 27);
-            this.BtnNum0.TabIndex = 0;
-            this.BtnNum0.Text = "0";
-            this.BtnNum0.UseVisualStyleBackColor = true;
+            BtnNum0.Dock = DockStyle.Fill;
+            BtnNum0.Location = new Point(128, 113);
+            BtnNum0.Margin = new Padding(4, 5, 4, 5);
+            BtnNum0.Name = "BtnNum0";
+            BtnNum0.Size = new Size(117, 27);
+            BtnNum0.TabIndex = 0;
+            BtnNum0.Text = "0";
+            BtnNum0.UseVisualStyleBackColor = true;
             // 
             // BtnNum1
             // 
-            this.BtnNum1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum1.Location = new System.Drawing.Point(3, 3);
-            this.BtnNum1.Name = "BtnNum1";
-            this.BtnNum1.Size = new System.Drawing.Size(118, 30);
-            this.BtnNum1.TabIndex = 0;
-            this.BtnNum1.Text = "1";
-            this.BtnNum1.UseVisualStyleBackColor = true;
+            BtnNum1.Dock = DockStyle.Fill;
+            BtnNum1.Location = new Point(3, 3);
+            BtnNum1.Name = "BtnNum1";
+            BtnNum1.Size = new Size(118, 30);
+            BtnNum1.TabIndex = 0;
+            BtnNum1.Text = "1";
+            BtnNum1.UseVisualStyleBackColor = true;
             // 
             // BtnNum2
             // 
-            this.BtnNum2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum2.Location = new System.Drawing.Point(128, 5);
-            this.BtnNum2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum2.Name = "BtnNum2";
-            this.BtnNum2.Size = new System.Drawing.Size(117, 26);
-            this.BtnNum2.TabIndex = 1;
-            this.BtnNum2.Text = "2";
-            this.BtnNum2.UseVisualStyleBackColor = true;
+            BtnNum2.Dock = DockStyle.Fill;
+            BtnNum2.Location = new Point(128, 5);
+            BtnNum2.Margin = new Padding(4, 5, 4, 5);
+            BtnNum2.Name = "BtnNum2";
+            BtnNum2.Size = new Size(117, 26);
+            BtnNum2.TabIndex = 1;
+            BtnNum2.Text = "2";
+            BtnNum2.UseVisualStyleBackColor = true;
             // 
             // BtnNum3
             // 
-            this.BtnNum3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum3.Location = new System.Drawing.Point(253, 5);
-            this.BtnNum3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum3.Name = "BtnNum3";
-            this.BtnNum3.Size = new System.Drawing.Size(118, 26);
-            this.BtnNum3.TabIndex = 2;
-            this.BtnNum3.Text = "3";
-            this.BtnNum3.UseVisualStyleBackColor = true;
+            BtnNum3.Dock = DockStyle.Fill;
+            BtnNum3.Location = new Point(253, 5);
+            BtnNum3.Margin = new Padding(4, 5, 4, 5);
+            BtnNum3.Name = "BtnNum3";
+            BtnNum3.Size = new Size(118, 26);
+            BtnNum3.TabIndex = 2;
+            BtnNum3.Text = "3";
+            BtnNum3.UseVisualStyleBackColor = true;
             // 
             // BtnNum4
             // 
-            this.BtnNum4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum4.Location = new System.Drawing.Point(4, 41);
-            this.BtnNum4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum4.Name = "BtnNum4";
-            this.BtnNum4.Size = new System.Drawing.Size(116, 26);
-            this.BtnNum4.TabIndex = 3;
-            this.BtnNum4.Text = "4";
-            this.BtnNum4.UseVisualStyleBackColor = true;
+            BtnNum4.Dock = DockStyle.Fill;
+            BtnNum4.Location = new Point(4, 41);
+            BtnNum4.Margin = new Padding(4, 5, 4, 5);
+            BtnNum4.Name = "BtnNum4";
+            BtnNum4.Size = new Size(116, 26);
+            BtnNum4.TabIndex = 3;
+            BtnNum4.Text = "4";
+            BtnNum4.UseVisualStyleBackColor = true;
             // 
             // BtnNum5
             // 
-            this.BtnNum5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum5.Location = new System.Drawing.Point(128, 41);
-            this.BtnNum5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum5.Name = "BtnNum5";
-            this.BtnNum5.Size = new System.Drawing.Size(117, 26);
-            this.BtnNum5.TabIndex = 4;
-            this.BtnNum5.Text = "5";
-            this.BtnNum5.UseVisualStyleBackColor = true;
+            BtnNum5.Dock = DockStyle.Fill;
+            BtnNum5.Location = new Point(128, 41);
+            BtnNum5.Margin = new Padding(4, 5, 4, 5);
+            BtnNum5.Name = "BtnNum5";
+            BtnNum5.Size = new Size(117, 26);
+            BtnNum5.TabIndex = 4;
+            BtnNum5.Text = "5";
+            BtnNum5.UseVisualStyleBackColor = true;
             // 
             // BtnNum6
             // 
-            this.BtnNum6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum6.Location = new System.Drawing.Point(253, 41);
-            this.BtnNum6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum6.Name = "BtnNum6";
-            this.BtnNum6.Size = new System.Drawing.Size(118, 26);
-            this.BtnNum6.TabIndex = 5;
-            this.BtnNum6.Text = "6";
-            this.BtnNum6.UseVisualStyleBackColor = true;
+            BtnNum6.Dock = DockStyle.Fill;
+            BtnNum6.Location = new Point(253, 41);
+            BtnNum6.Margin = new Padding(4, 5, 4, 5);
+            BtnNum6.Name = "BtnNum6";
+            BtnNum6.Size = new Size(118, 26);
+            BtnNum6.TabIndex = 5;
+            BtnNum6.Text = "6";
+            BtnNum6.UseVisualStyleBackColor = true;
             // 
             // BtnNum7
             // 
-            this.BtnNum7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum7.Location = new System.Drawing.Point(4, 77);
-            this.BtnNum7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum7.Name = "BtnNum7";
-            this.BtnNum7.Size = new System.Drawing.Size(116, 26);
-            this.BtnNum7.TabIndex = 6;
-            this.BtnNum7.Text = "7";
-            this.BtnNum7.UseVisualStyleBackColor = true;
+            BtnNum7.Dock = DockStyle.Fill;
+            BtnNum7.Location = new Point(4, 77);
+            BtnNum7.Margin = new Padding(4, 5, 4, 5);
+            BtnNum7.Name = "BtnNum7";
+            BtnNum7.Size = new Size(116, 26);
+            BtnNum7.TabIndex = 6;
+            BtnNum7.Text = "7";
+            BtnNum7.UseVisualStyleBackColor = true;
             // 
             // BtnNum8
             // 
-            this.BtnNum8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum8.Location = new System.Drawing.Point(128, 77);
-            this.BtnNum8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum8.Name = "BtnNum8";
-            this.BtnNum8.Size = new System.Drawing.Size(117, 26);
-            this.BtnNum8.TabIndex = 7;
-            this.BtnNum8.Text = "8";
-            this.BtnNum8.UseVisualStyleBackColor = true;
+            BtnNum8.Dock = DockStyle.Fill;
+            BtnNum8.Location = new Point(128, 77);
+            BtnNum8.Margin = new Padding(4, 5, 4, 5);
+            BtnNum8.Name = "BtnNum8";
+            BtnNum8.Size = new Size(117, 26);
+            BtnNum8.TabIndex = 7;
+            BtnNum8.Text = "8";
+            BtnNum8.UseVisualStyleBackColor = true;
             // 
             // BtnNum9
             // 
-            this.BtnNum9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnNum9.Location = new System.Drawing.Point(253, 77);
-            this.BtnNum9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnNum9.Name = "BtnNum9";
-            this.BtnNum9.Size = new System.Drawing.Size(118, 26);
-            this.BtnNum9.TabIndex = 8;
-            this.BtnNum9.Text = "9";
-            this.BtnNum9.UseVisualStyleBackColor = true;
+            BtnNum9.Dock = DockStyle.Fill;
+            BtnNum9.Location = new Point(253, 77);
+            BtnNum9.Margin = new Padding(4, 5, 4, 5);
+            BtnNum9.Name = "BtnNum9";
+            BtnNum9.Size = new Size(118, 26);
+            BtnNum9.TabIndex = 8;
+            BtnNum9.Text = "9";
+            BtnNum9.UseVisualStyleBackColor = true;
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.panel10.Controls.Add(this.BtnSaveOrder);
-            this.panel10.Controls.Add(this.BtnTakeAway);
-            this.panel10.Controls.Add(this.BtnOnSite);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel10.Location = new System.Drawing.Point(826, 468);
-            this.panel10.Margin = new System.Windows.Forms.Padding(0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(386, 159);
-            this.panel10.TabIndex = 5;
+            panel10.BackColor = Color.FromArgb(34, 87, 122);
+            panel10.Controls.Add(BtnSaveOrder);
+            panel10.Controls.Add(BtnTakeAway);
+            panel10.Controls.Add(BtnOnSite);
+            panel10.Dock = DockStyle.Fill;
+            panel10.Location = new Point(826, 468);
+            panel10.Margin = new Padding(0);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(386, 159);
+            panel10.TabIndex = 5;
             // 
             // BtnSaveOrder
             // 
-            this.BtnSaveOrder.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnSaveOrder.Location = new System.Drawing.Point(258, 66);
-            this.BtnSaveOrder.Name = "BtnSaveOrder";
-            this.BtnSaveOrder.Size = new System.Drawing.Size(119, 62);
-            this.BtnSaveOrder.TabIndex = 2;
-            this.BtnSaveOrder.Text = "Save";
-            this.BtnSaveOrder.UseVisualStyleBackColor = true;
-            this.BtnSaveOrder.Click += new System.EventHandler(this.BtnSaveOrder_Click);
+            BtnSaveOrder.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnSaveOrder.Location = new Point(258, 66);
+            BtnSaveOrder.Name = "BtnSaveOrder";
+            BtnSaveOrder.Size = new Size(119, 62);
+            BtnSaveOrder.TabIndex = 2;
+            BtnSaveOrder.Text = "Save";
+            BtnSaveOrder.UseVisualStyleBackColor = true;
+            BtnSaveOrder.Click += BtnSaveOrder_Click;
             // 
             // BtnTakeAway
             // 
-            this.BtnTakeAway.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.BtnTakeAway.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnTakeAway.Location = new System.Drawing.Point(130, 74);
-            this.BtnTakeAway.Name = "BtnTakeAway";
-            this.BtnTakeAway.Size = new System.Drawing.Size(80, 35);
-            this.BtnTakeAway.TabIndex = 1;
-            this.BtnTakeAway.Text = "Take Away";
-            this.BtnTakeAway.UseVisualStyleBackColor = false;
-            this.BtnTakeAway.Click += new System.EventHandler(this.BtnTakeAway_Click);
+            BtnTakeAway.BackColor = Color.FromArgb(255, 128, 0);
+            BtnTakeAway.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnTakeAway.ImageIndex = 9;
+            BtnTakeAway.ImageList = imageList1;
+            BtnTakeAway.Location = new Point(130, 44);
+            BtnTakeAway.Name = "BtnTakeAway";
+            BtnTakeAway.Size = new Size(80, 65);
+            BtnTakeAway.TabIndex = 1;
+            BtnTakeAway.Text = "Take Away";
+            BtnTakeAway.TextImageRelation = TextImageRelation.ImageAboveText;
+            BtnTakeAway.UseVisualStyleBackColor = false;
+            BtnTakeAway.Click += BtnTakeAway_Click;
             // 
             // BtnOnSite
             // 
-            this.BtnOnSite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.BtnOnSite.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnOnSite.Location = new System.Drawing.Point(38, 74);
-            this.BtnOnSite.Name = "BtnOnSite";
-            this.BtnOnSite.Size = new System.Drawing.Size(85, 35);
-            this.BtnOnSite.TabIndex = 0;
-            this.BtnOnSite.Text = "On Site";
-            this.BtnOnSite.UseVisualStyleBackColor = false;
-            this.BtnOnSite.Click += new System.EventHandler(this.BtnOnSite_Click);
+            BtnOnSite.BackColor = Color.FromArgb(255, 128, 0);
+            BtnOnSite.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnOnSite.ImageIndex = 8;
+            BtnOnSite.ImageList = imageList1;
+            BtnOnSite.Location = new Point(38, 44);
+            BtnOnSite.Name = "BtnOnSite";
+            BtnOnSite.Size = new Size(85, 65);
+            BtnOnSite.TabIndex = 0;
+            BtnOnSite.Text = "On Site";
+            BtnOnSite.TextImageRelation = TextImageRelation.ImageAboveText;
+            BtnOnSite.UseVisualStyleBackColor = false;
+            BtnOnSite.Click += BtnOnSite_Click;
             // 
             // CardUserControl1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(222)))), ((int)(((byte)(156)))));
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "CardUserControl1";
-            this.Size = new System.Drawing.Size(1212, 627);
-            this.Load += new System.EventHandler(this.CardUserControl1_Load);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(252, 222, 156);
+            Controls.Add(tableLayoutPanel1);
+            Name = "CardUserControl1";
+            Size = new Size(1212, 627);
+            Load += CardUserControl1_Load;
+            tableLayoutPanel1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            tableLayoutPanel5.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel9.ResumeLayout(false);
+            tableLayoutPanel4.ResumeLayout(false);
+            panel10.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
@@ -590,5 +610,6 @@ namespace DigiRestoProjet.View
         private Panel panel11;
         public TableLayoutPanel TblDisplayArticle;
         private Button btnResetCommand;
+        private ImageList imageList1;
     }
 }

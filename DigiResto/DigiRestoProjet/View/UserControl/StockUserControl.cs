@@ -16,10 +16,10 @@ using Projet_Pi_DIGIRESTO.View;
 
 namespace DigiRestoProjet
 {
-    public partial class StockUserControl :UserControl
+    public partial class StockUserControl : UserControl
     {
-        
-        
+
+
 
         public StockUserControl()
         {
@@ -96,17 +96,17 @@ namespace DigiRestoProjet
         }
         private void StockdataGridView_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
-           
+
             if (StockdataGridView.Columns[e.ColumnIndex] == StockdataGridView.Columns[0]) //column button update was clicked 
             {
-                
+
 
                 string name = GlobalVariable.stockList[e.RowIndex].Name;// set value of row 
                 int quantity = GlobalVariable.stockList[e.RowIndex].Quantity;
                 Units unit = GlobalVariable.stockList[e.RowIndex].Unity;
                 DateTime dateofperemption = GlobalVariable.stockList[e.RowIndex].DateOfPeremption;
 
-                
+
 
                 var updateStockPage = new UpdateStockPage(this);//set value in UpdateForm
                 updateStockPage.UpdateStockTextBox1.Text = name;
@@ -114,26 +114,26 @@ namespace DigiRestoProjet
                 updateStockPage.QuantityTextBox3.Text = Convert.ToString(quantity);
                 updateStockPage.UpdateStockcomboBox1.SelectedIndex = (int)unit;
                 updateStockPage.Index = e.RowIndex;
-                updateStockPage.ShowDialog();               
+                updateStockPage.ShowDialog();
             }
-            else if(StockdataGridView.Columns[e.ColumnIndex] == StockdataGridView.Columns[1]) //column button delete was clicked 
+            else if (StockdataGridView.Columns[e.ColumnIndex] == StockdataGridView.Columns[1]) //column button delete was clicked 
             {
-                
+
                 string name = GlobalVariable.stockList[e.RowIndex].Name;// set value of row in var
                 int quantity = GlobalVariable.stockList[e.RowIndex].Quantity;
                 Units unit = GlobalVariable.stockList[e.RowIndex].Unity;
                 DateTime dateofperemption = GlobalVariable.stockList[e.RowIndex].DateOfPeremption;
-   
-                foreach(Stock stock in GlobalVariable.stockList)// check in list witch stock must be delete  
+
+                foreach (Stock stock in GlobalVariable.stockList)// check in list witch stock must be delete  
                 {
-                    if(stock.Name == name && stock.Quantity == quantity && stock.Unity == unit && stock.DateOfPeremption == dateofperemption)
+                    if (stock.Name == name && stock.Quantity == quantity && stock.Unity == unit && stock.DateOfPeremption == dateofperemption)
                     {
                         GlobalVariable.stockList.RemoveAt(e.RowIndex); //remove stock 
                         break;
                     }
                 }
 
-                MessageBox.Show(" The Stock with Name: " + name + " Quantity: " + quantity + unit + " Date of Perenption: " + dateofperemption +" was deleted");
+                MessageBox.Show(" The Stock with Name: " + name + " Quantity: " + quantity + unit + " Date of Perenption: " + dateofperemption + " was deleted");
                 StockdataGridView.Refresh();
             }
         }
@@ -141,10 +141,13 @@ namespace DigiRestoProjet
         {
             if (StockdataGridView.Columns[cellEvent.ColumnIndex] is
                 DataGridViewLinkColumn &&
-                cellEvent.RowIndex != -1) { 
-             return true; 
-            }else{ 
-                return false; 
+                cellEvent.RowIndex != -1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
@@ -159,17 +162,17 @@ namespace DigiRestoProjet
 
         private void BtnAddStock_Click(object sender, EventArgs e)
         {
-           var AddStockPage =  new AddStockPage(StockdataGridView);
+            var AddStockPage = new AddStockPage(StockdataGridView);
             AddStockPage.ShowDialog();
         }
-        
+
         private void BtnDeleteStock_Click(object sender, EventArgs e)
         {
             MessageBox.Show("button delete click");
 
         }
 
-        
+
 
         private void label1_Click_1(object sender, EventArgs e)
         {

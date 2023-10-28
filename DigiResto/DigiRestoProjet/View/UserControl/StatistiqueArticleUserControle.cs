@@ -20,14 +20,14 @@ namespace DigiRestoProjet.View
         {
             InitializeComponent();
             LoadChart();
-            
+
             var months = System.Globalization.DateTimeFormatInfo.InvariantInfo.MonthNames;
             cbFilterMonth.DataSource = months;
         }
 
         public void LoadChart()
         {
-            
+
         }
         #region events
         private void btnSearchMonth_Click(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace DigiRestoProjet.View
             IDictionary<string, int> dic = QuantitySoldController.Instance.UpdateQuantitySoldByMonth(month);
             List<FoodSold> foodSolds = new List<FoodSold>();
 
-            foreach(var elm in dic)
+            foreach (var elm in dic)
             {
                 FoodSold foodSold = new FoodSold();
                 foodSold.FoodName = elm.Key;
@@ -88,7 +88,7 @@ namespace DigiRestoProjet.View
             }
 
             chartSold.DataSource = foodSolds;
-            
+
             chartSold.Series["Article"].XValueMember = "FoodName";
             chartSold.Series["Article"].XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.String;
             chartSold.Series["Article"].YValueMembers = "Quantity";

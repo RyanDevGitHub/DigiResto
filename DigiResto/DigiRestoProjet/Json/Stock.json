@@ -7,19 +7,19 @@
   },
   {
     "Name": "Pain Burger",
-    "Quantity": -700,
+    "Quantity": -900,
     "Unity": 0,
     "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
   },
   {
     "Name": "Ketchup",
-    "Quantity": 20,
+    "Quantity": 0,
     "Unity": 2,
     "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
   },
   {
     "Name": "Cheddar",
-    "Quantity": -500,
+    "Quantity": -650,
     "Unity": 0,
     "DateOfPeremption": "2023-01-27T10:43:02.3225773+01:00"
   },

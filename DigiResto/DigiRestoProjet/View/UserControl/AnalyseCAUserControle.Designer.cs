@@ -28,178 +28,200 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.BtnSearch = new System.Windows.Forms.Button();
-            this.dtimeCA = new System.Windows.Forms.DateTimePicker();
-            this.cbFilter = new System.Windows.Forms.ComboBox();
-            this.btSearchFilter = new System.Windows.Forms.Button();
-            this.chartRevenue = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnMainMenu = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartRevenue)).BeginInit();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnalyseCAUserControle));
+            tableLayoutPanel1 = new TableLayoutPanel();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            BtnSearch = new Button();
+            dtimeCA = new DateTimePicker();
+            cbFilter = new ComboBox();
+            btSearchFilter = new Button();
+            chartRevenue = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            btnMainMenu = new Button();
+            label1 = new Label();
+            imageList1 = new ImageList(components);
+            imageList2 = new ImageList(components);
+            tableLayoutPanel1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)chartRevenue).BeginInit();
+            tableLayoutPanel3.SuspendLayout();
+            SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.chartRevenue, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.00905F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.05882F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1197, 663);
-            this.tableLayoutPanel1.TabIndex = 1;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 1);
+            tableLayoutPanel1.Controls.Add(chartRevenue, 0, 2);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 0, 0);
+            tableLayoutPanel1.Dock = DockStyle.Right;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(2);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 4;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 58.00905F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 27.05882F));
+            tableLayoutPanel1.Size = new Size(1197, 663);
+            tableLayoutPanel1.TabIndex = 1;
+            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 4;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.13145F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.920188F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.00704F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 108F));
-            this.tableLayoutPanel2.Controls.Add(this.BtnSearch, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.dtimeCA, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.cbFilter, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.btSearchFilter, 3, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 68);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1193, 29);
-            this.tableLayoutPanel2.TabIndex = 1;
+            tableLayoutPanel2.ColumnCount = 4;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 19.13145F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.920188F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 72.00704F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 108F));
+            tableLayoutPanel2.Controls.Add(BtnSearch, 0, 0);
+            tableLayoutPanel2.Controls.Add(dtimeCA, 0, 0);
+            tableLayoutPanel2.Controls.Add(cbFilter, 2, 0);
+            tableLayoutPanel2.Controls.Add(btSearchFilter, 3, 0);
+            tableLayoutPanel2.Dock = DockStyle.Fill;
+            tableLayoutPanel2.Location = new Point(2, 68);
+            tableLayoutPanel2.Margin = new Padding(2);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 1;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 29F));
+            tableLayoutPanel2.Size = new Size(1193, 29);
+            tableLayoutPanel2.TabIndex = 1;
             // 
             // BtnSearch
             // 
-            this.BtnSearch.Location = new System.Drawing.Point(209, 2);
-            this.BtnSearch.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnSearch.Name = "BtnSearch";
-            this.BtnSearch.Size = new System.Drawing.Size(78, 25);
-            this.BtnSearch.TabIndex = 10;
-            this.BtnSearch.Text = "Search";
-            this.BtnSearch.UseVisualStyleBackColor = true;
-            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
+            BtnSearch.ImageIndex = 0;
+            BtnSearch.ImageList = imageList2;
+            BtnSearch.Location = new Point(209, 2);
+            BtnSearch.Margin = new Padding(2);
+            BtnSearch.Name = "BtnSearch";
+            BtnSearch.Size = new Size(78, 25);
+            BtnSearch.TabIndex = 10;
+            BtnSearch.UseVisualStyleBackColor = true;
+            BtnSearch.Click += BtnSearch_Click;
             // 
             // dtimeCA
             // 
-            this.dtimeCA.Location = new System.Drawing.Point(2, 2);
-            this.dtimeCA.Margin = new System.Windows.Forms.Padding(2);
-            this.dtimeCA.Name = "dtimeCA";
-            this.dtimeCA.Size = new System.Drawing.Size(203, 23);
-            this.dtimeCA.TabIndex = 0;
+            dtimeCA.Location = new Point(2, 2);
+            dtimeCA.Margin = new Padding(2);
+            dtimeCA.Name = "dtimeCA";
+            dtimeCA.Size = new Size(203, 23);
+            dtimeCA.TabIndex = 0;
             // 
             // cbFilter
             // 
-            this.cbFilter.Dock = System.Windows.Forms.DockStyle.Right;
-            this.cbFilter.FormattingEnabled = true;
-            this.cbFilter.Location = new System.Drawing.Point(952, 2);
-            this.cbFilter.Margin = new System.Windows.Forms.Padding(2);
-            this.cbFilter.Name = "cbFilter";
-            this.cbFilter.Size = new System.Drawing.Size(129, 23);
-            this.cbFilter.TabIndex = 1;
+            cbFilter.Dock = DockStyle.Right;
+            cbFilter.FormattingEnabled = true;
+            cbFilter.Location = new Point(952, 2);
+            cbFilter.Margin = new Padding(2);
+            cbFilter.Name = "cbFilter";
+            cbFilter.Size = new Size(129, 23);
+            cbFilter.TabIndex = 1;
             // 
             // btSearchFilter
             // 
-            this.btSearchFilter.Location = new System.Drawing.Point(1085, 2);
-            this.btSearchFilter.Margin = new System.Windows.Forms.Padding(2);
-            this.btSearchFilter.Name = "btSearchFilter";
-            this.btSearchFilter.Size = new System.Drawing.Size(78, 25);
-            this.btSearchFilter.TabIndex = 11;
-            this.btSearchFilter.Text = "Search";
-            this.btSearchFilter.UseVisualStyleBackColor = true;
-            this.btSearchFilter.Click += new System.EventHandler(this.btSearchFilter_Click);
+            btSearchFilter.ImageIndex = 0;
+            btSearchFilter.ImageList = imageList2;
+            btSearchFilter.Location = new Point(1085, 2);
+            btSearchFilter.Margin = new Padding(2);
+            btSearchFilter.Name = "btSearchFilter";
+            btSearchFilter.Size = new Size(78, 25);
+            btSearchFilter.TabIndex = 11;
+            btSearchFilter.TextAlign = ContentAlignment.MiddleRight;
+            btSearchFilter.UseVisualStyleBackColor = true;
+            btSearchFilter.Click += btSearchFilter_Click;
             // 
             // chartRevenue
             // 
             chartArea1.Name = "ChartArea1";
-            this.chartRevenue.ChartAreas.Add(chartArea1);
-            this.chartRevenue.Dock = System.Windows.Forms.DockStyle.Fill;
+            chartRevenue.ChartAreas.Add(chartArea1);
+            chartRevenue.Dock = DockStyle.Fill;
             legend1.Name = "Legend1";
-            this.chartRevenue.Legends.Add(legend1);
-            this.chartRevenue.Location = new System.Drawing.Point(2, 101);
-            this.chartRevenue.Margin = new System.Windows.Forms.Padding(2);
-            this.chartRevenue.Name = "chartRevenue";
+            chartRevenue.Legends.Add(legend1);
+            chartRevenue.Location = new Point(2, 101);
+            chartRevenue.Margin = new Padding(2);
+            chartRevenue.Name = "chartRevenue";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Revenue";
-            this.chartRevenue.Series.Add(series1);
-            this.chartRevenue.Size = new System.Drawing.Size(1193, 380);
-            this.chartRevenue.TabIndex = 2;
-            this.chartRevenue.Text = "chart1";
+            chartRevenue.Series.Add(series1);
+            chartRevenue.Size = new Size(1193, 380);
+            chartRevenue.TabIndex = 2;
+            chartRevenue.Text = "chart1";
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90F));
-            this.tableLayoutPanel3.Controls.Add(this.btnMainMenu, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label1, 1, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 2);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1193, 62);
-            this.tableLayoutPanel3.TabIndex = 3;
+            tableLayoutPanel3.ColumnCount = 2;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 90F));
+            tableLayoutPanel3.Controls.Add(btnMainMenu, 0, 0);
+            tableLayoutPanel3.Controls.Add(label1, 1, 0);
+            tableLayoutPanel3.Dock = DockStyle.Fill;
+            tableLayoutPanel3.Location = new Point(2, 2);
+            tableLayoutPanel3.Margin = new Padding(2);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 1;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel3.Size = new Size(1193, 62);
+            tableLayoutPanel3.TabIndex = 3;
             // 
             // btnMainMenu
             // 
-            this.btnMainMenu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnMainMenu.Location = new System.Drawing.Point(33, 3);
-            this.btnMainMenu.Name = "btnMainMenu";
-            this.btnMainMenu.Size = new System.Drawing.Size(83, 56);
-            this.btnMainMenu.TabIndex = 7;
-            this.btnMainMenu.Text = "Exit";
-            this.btnMainMenu.UseVisualStyleBackColor = true;
-            this.btnMainMenu.Click += new System.EventHandler(this.btnMainMenu_Click);
+            btnMainMenu.Dock = DockStyle.Right;
+            btnMainMenu.ImageIndex = 0;
+            btnMainMenu.ImageList = imageList1;
+            btnMainMenu.Location = new Point(33, 3);
+            btnMainMenu.Name = "btnMainMenu";
+            btnMainMenu.Size = new Size(83, 56);
+            btnMainMenu.TabIndex = 7;
+            btnMainMenu.UseVisualStyleBackColor = true;
+            btnMainMenu.Click += btnMainMenu_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(121, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1070, 62);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Analyse CA";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label1.AutoSize = true;
+            label1.Dock = DockStyle.Fill;
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label1.Location = new Point(121, 0);
+            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(1070, 62);
+            label1.TabIndex = 8;
+            label1.Text = "Analyse CA";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth8Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "icons8-effacer-240.png");
+            imageList1.Images.SetKeyName(1, "icons8-chercher-250.png");
+            // 
+            // imageList2
+            // 
+            imageList2.ColorDepth = ColorDepth.Depth8Bit;
+            imageList2.ImageStream = (ImageListStreamer)resources.GetObject("imageList2.ImageStream");
+            imageList2.TransparentColor = Color.Transparent;
+            imageList2.Images.SetKeyName(0, "icons8-chercher-100.png");
             // 
             // AnalyseCAUserControle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "AnalyseCAUserControle";
-            this.Size = new System.Drawing.Size(1197, 663);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chartRevenue)).EndInit();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(tableLayoutPanel1);
+            Name = "AnalyseCAUserControle";
+            Size = new Size(1197, 663);
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)chartRevenue).EndInit();
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel3.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -214,5 +236,7 @@
         private Button btSearchFilter;
         private Button BtnSearch;
         private DateTimePicker dtimeCA;
+        private ImageList imageList2;
+        private ImageList imageList1;
     }
 }

@@ -28,225 +28,241 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BtnSettings = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnMainMenu = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.lvHistory = new System.Windows.Forms.ListView();
-            this.NbOrder = new System.Windows.Forms.ColumnHeader();
-            this.DateCheckOut = new System.Windows.Forms.ColumnHeader();
-            this.PriceOrder = new System.Windows.Forms.ColumnHeader();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.Dtime = new System.Windows.Forms.DateTimePicker();
-            this.BtnSearch = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderHistoryUserControle));
+            BtnSettings = new Button();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            panel1 = new Panel();
+            panel3 = new Panel();
+            panel2 = new Panel();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            btnMainMenu = new Button();
+            label1 = new Label();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            lvHistory = new ListView();
+            NbOrder = new ColumnHeader();
+            DateCheckOut = new ColumnHeader();
+            PriceOrder = new ColumnHeader();
+            tableLayoutPanel5 = new TableLayoutPanel();
+            Dtime = new DateTimePicker();
+            BtnSearch = new Button();
+            imageList1 = new ImageList(components);
+            tableLayoutPanel1.SuspendLayout();
+            panel1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+            tableLayoutPanel5.SuspendLayout();
+            SuspendLayout();
             // 
             // BtnSettings
             // 
-            this.BtnSettings.Location = new System.Drawing.Point(4, 5);
-            this.BtnSettings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnSettings.Name = "BtnSettings";
-            this.BtnSettings.Size = new System.Drawing.Size(119, 86);
-            this.BtnSettings.TabIndex = 5;
-            this.BtnSettings.Text = "Settings";
-            this.BtnSettings.UseVisualStyleBackColor = true;
-            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
+            BtnSettings.ImageIndex = 1;
+            BtnSettings.ImageList = imageList1;
+            BtnSettings.Location = new Point(3, 3);
+            BtnSettings.Name = "BtnSettings";
+            BtnSettings.Size = new Size(82, 52);
+            BtnSettings.TabIndex = 5;
+            BtnSettings.UseVisualStyleBackColor = true;
+            BtnSettings.Click += BtnSettings_Click;
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel5, 1, 2);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.553158F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.003081F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.306496F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 83.25709F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1776, 1093);
-            this.tableLayoutPanel1.TabIndex = 6;
+            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5.14883327F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 89.78278F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
+            tableLayoutPanel1.Controls.Add(panel1, 0, 1);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 1, 0);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 1, 3);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel5, 1, 2);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 4;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.553158F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 2.003081F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 5.306496F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 83.25709F));
+            tableLayoutPanel1.Size = new Size(1243, 656);
+            tableLayoutPanel1.TabIndex = 6;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.tableLayoutPanel1.SetColumnSpan(this.panel1, 3);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(4, 109);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1768, 11);
-            this.panel1.TabIndex = 6;
+            panel1.BackColor = Color.Black;
+            tableLayoutPanel1.SetColumnSpan(panel1, 3);
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(panel2);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(3, 65);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1237, 7);
+            panel1.TabIndex = 6;
             // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(106, 5);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(8, 11);
-            this.panel3.TabIndex = 1;
+            panel3.Location = new Point(74, 3);
+            panel3.Margin = new Padding(2, 2, 2, 2);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(6, 7);
+            panel3.TabIndex = 1;
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(287, 7);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(34, 104);
-            this.panel2.TabIndex = 0;
+            panel2.Location = new Point(201, 4);
+            panel2.Margin = new Padding(2, 2, 2, 2);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(24, 62);
+            panel2.TabIndex = 0;
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84F));
-            this.tableLayoutPanel2.Controls.Add(this.btnMainMenu, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.BtnSettings, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label1, 2, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(91, 3);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1592, 98);
-            this.tableLayoutPanel2.TabIndex = 7;
+            tableLayoutPanel2.ColumnCount = 3;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 84F));
+            tableLayoutPanel2.Controls.Add(btnMainMenu, 0, 0);
+            tableLayoutPanel2.Controls.Add(BtnSettings, 0, 0);
+            tableLayoutPanel2.Controls.Add(label1, 2, 0);
+            tableLayoutPanel2.Dock = DockStyle.Fill;
+            tableLayoutPanel2.Location = new Point(66, 2);
+            tableLayoutPanel2.Margin = new Padding(2, 2, 2, 2);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 1;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Size = new Size(1112, 58);
+            tableLayoutPanel2.TabIndex = 7;
             // 
             // btnMainMenu
             // 
-            this.btnMainMenu.Location = new System.Drawing.Point(131, 5);
-            this.btnMainMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnMainMenu.Name = "btnMainMenu";
-            this.btnMainMenu.Size = new System.Drawing.Size(119, 86);
-            this.btnMainMenu.TabIndex = 6;
-            this.btnMainMenu.Text = "Exit";
-            this.btnMainMenu.UseVisualStyleBackColor = true;
-            this.btnMainMenu.Click += new System.EventHandler(this.btnMainMenu_Click);
+            btnMainMenu.ImageIndex = 0;
+            btnMainMenu.ImageList = imageList1;
+            btnMainMenu.Location = new Point(91, 3);
+            btnMainMenu.Name = "btnMainMenu";
+            btnMainMenu.Size = new Size(82, 52);
+            btnMainMenu.TabIndex = 6;
+            btnMainMenu.UseVisualStyleBackColor = true;
+            btnMainMenu.Click += btnMainMenu_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(257, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1332, 98);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "History";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label1.AutoSize = true;
+            label1.Dock = DockStyle.Fill;
+            label1.Font = new Font("Segoe UI Black", 22F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(178, 0);
+            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(932, 58);
+            label1.TabIndex = 0;
+            label1.Text = "History";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 83.0402F));
-            this.tableLayoutPanel3.Controls.Add(this.lvHistory, 0, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(91, 185);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1592, 905);
-            this.tableLayoutPanel3.TabIndex = 9;
+            tableLayoutPanel3.ColumnCount = 1;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.0402F));
+            tableLayoutPanel3.Controls.Add(lvHistory, 0, 0);
+            tableLayoutPanel3.Dock = DockStyle.Fill;
+            tableLayoutPanel3.Location = new Point(66, 111);
+            tableLayoutPanel3.Margin = new Padding(2, 2, 2, 2);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 1;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.Size = new Size(1112, 543);
+            tableLayoutPanel3.TabIndex = 9;
             // 
             // lvHistory
             // 
-            this.lvHistory.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.NbOrder,
-            this.DateCheckOut,
-            this.PriceOrder});
-            this.lvHistory.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lvHistory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lvHistory.FullRowSelect = true;
-            this.lvHistory.Location = new System.Drawing.Point(3, 3);
-            this.lvHistory.Name = "lvHistory";
-            this.lvHistory.Size = new System.Drawing.Size(1586, 899);
-            this.lvHistory.TabIndex = 0;
-            this.lvHistory.UseCompatibleStateImageBehavior = false;
-            this.lvHistory.View = System.Windows.Forms.View.Details;
-            this.lvHistory.SelectedIndexChanged += new System.EventHandler(this.lvHistory_SelectedIndexChanged);
+            lvHistory.Columns.AddRange(new ColumnHeader[] { NbOrder, DateCheckOut, PriceOrder });
+            lvHistory.Dock = DockStyle.Fill;
+            lvHistory.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lvHistory.FullRowSelect = true;
+            lvHistory.Location = new Point(2, 2);
+            lvHistory.Margin = new Padding(2, 2, 2, 2);
+            lvHistory.Name = "lvHistory";
+            lvHistory.Size = new Size(1108, 539);
+            lvHistory.TabIndex = 0;
+            lvHistory.UseCompatibleStateImageBehavior = false;
+            lvHistory.View = System.Windows.Forms.View.Details;
+            lvHistory.SelectedIndexChanged += lvHistory_SelectedIndexChanged;
             // 
             // NbOrder
             // 
-            this.NbOrder.Text = "N° Order";
-            this.NbOrder.Width = 200;
+            NbOrder.Text = "N° Order";
+            NbOrder.Width = 200;
             // 
             // DateCheckOut
             // 
-            this.DateCheckOut.Text = "Date and Time";
-            this.DateCheckOut.Width = 400;
+            DateCheckOut.Text = "Date and Time";
+            DateCheckOut.Width = 400;
             // 
             // PriceOrder
             // 
-            this.PriceOrder.Text = "Total Price";
-            this.PriceOrder.Width = 200;
+            PriceOrder.Text = "Total Price";
+            PriceOrder.Width = 200;
             // 
             // tableLayoutPanel5
             // 
-            this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.97643F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.02357F));
-            this.tableLayoutPanel5.Controls.Add(this.Dtime, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.BtnSearch, 1, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(91, 128);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(509, 51);
-            this.tableLayoutPanel5.TabIndex = 10;
+            tableLayoutPanel5.ColumnCount = 2;
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 67.97643F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 32.02357F));
+            tableLayoutPanel5.Controls.Add(Dtime, 0, 0);
+            tableLayoutPanel5.Controls.Add(BtnSearch, 1, 0);
+            tableLayoutPanel5.Location = new Point(66, 77);
+            tableLayoutPanel5.Margin = new Padding(2, 2, 2, 2);
+            tableLayoutPanel5.Name = "tableLayoutPanel5";
+            tableLayoutPanel5.RowCount = 1;
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel5.Size = new Size(356, 30);
+            tableLayoutPanel5.TabIndex = 10;
             // 
             // Dtime
             // 
-            this.Dtime.CustomFormat = "dd/mm/yyyy";
-            this.Dtime.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Dtime.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Dtime.Location = new System.Drawing.Point(3, 3);
-            this.Dtime.Name = "Dtime";
-            this.Dtime.Size = new System.Drawing.Size(340, 34);
-            this.Dtime.TabIndex = 8;
+            Dtime.CustomFormat = "dd/mm/yyyy";
+            Dtime.Dock = DockStyle.Fill;
+            Dtime.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            Dtime.Location = new Point(2, 2);
+            Dtime.Margin = new Padding(2, 2, 2, 2);
+            Dtime.Name = "Dtime";
+            Dtime.Size = new Size(237, 25);
+            Dtime.TabIndex = 8;
             // 
             // BtnSearch
             // 
-            this.BtnSearch.Location = new System.Drawing.Point(349, 3);
-            this.BtnSearch.Name = "BtnSearch";
-            this.BtnSearch.Size = new System.Drawing.Size(112, 45);
-            this.BtnSearch.TabIndex = 9;
-            this.BtnSearch.Text = "Search";
-            this.BtnSearch.UseVisualStyleBackColor = true;
-            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
+            BtnSearch.ImageIndex = 2;
+            BtnSearch.ImageList = imageList1;
+            BtnSearch.Location = new Point(243, 2);
+            BtnSearch.Margin = new Padding(2, 2, 2, 2);
+            BtnSearch.Name = "BtnSearch";
+            BtnSearch.Size = new Size(78, 26);
+            BtnSearch.TabIndex = 9;
+            BtnSearch.UseVisualStyleBackColor = true;
+            BtnSearch.Click += BtnSearch_Click;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth8Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "icons8-effacer-240.png");
+            imageList1.Images.SetKeyName(1, "icons8-paramètres-240.png");
+            imageList1.Images.SetKeyName(2, "icons8-chercher-100.png");
             // 
             // OrderHistoryUserControle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "OrderHistoryUserControle";
-            this.Size = new System.Drawing.Size(1776, 1093);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(34, 87, 122);
+            Controls.Add(tableLayoutPanel1);
+            Name = "OrderHistoryUserControle";
+            Size = new Size(1243, 656);
+            tableLayoutPanel1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel5.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
@@ -266,5 +282,6 @@
         private TableLayoutPanel tableLayoutPanel5;
         private Button BtnSearch;
         private Button btnMainMenu;
+        private ImageList imageList1;
     }
 }

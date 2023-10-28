@@ -64,7 +64,7 @@ namespace DigiRestoProjet.View
 
         private void btSearchFilter_Click(object sender, EventArgs e)
         {
-            if(cbFilter.SelectedItem.Equals("Month"))
+            if (cbFilter.SelectedItem.Equals("Month"))
             {
                 LoadChart();
             }
